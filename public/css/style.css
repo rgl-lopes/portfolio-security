@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: rgb(0, 64, 255);
+  background-image: linear-gradient(to top right, rgb(0, 64, 255), rgb(17, 240, 221));
+}
+
+/* SIDEMENU START */
+
+#menu-icon {
+  margin: 10px;
+  top: 10px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+}
+
+#menu-icon img {
+  align-items: center;
+}
+
+aside {
+  background-color: rgb(13, 13, 13);
+  position: absolute;
+  width: 200px;
+  min-width: 200px;
+  border-radius: 0, 0, 10px, 10px;
+  text-align: left;
+  border-bottom-right-radius: 20px;
+  z-index: 1;
+}
+
+aside a:visited {
+  color: white;
+}
+
+aside a:hover {
+  color: rgb(0, 102, 255);
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+aside li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+input:checked~aside {
+  left: -250px;
+}
+
+#toggle-side {
+  display: none;
+}
+
+/* END SIDEMENU */
+
+main {
+  position: relative;
+  min-height: 100vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(204, 203, 203);
+  text-align: left;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  min-height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(13, 13, 13);
+  color: rgb(187, 186, 186);
+}
+
+.footer-text {
+  padding-left: 30px;
+}
+
+footer img {
+  width: 125px;
+  margin-right: 20px;
+}
+
+summary {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.faqp {
+  margin-left: 30px;
+}
+
+iframe {
+  margin-left: 20%;
+}
+
+/* Dashboard */
+
+table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+#tableheader {
+  border: 2px solid black;
+  background-color: rgb(255, 157, 0);
+}
+
+th, td {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#nbsa {
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+.progressbar {
+  display: flex;
+  margin: 10px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.progress {
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(8, 136, 233);
+  width: 0%;
+}
