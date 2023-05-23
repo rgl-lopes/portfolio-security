@@ -1,8 +1,11 @@
-# Portfolio The Script Kiddie
+# Portfolio Security Repository
 
 ## FPR2
 
-IT Development Portfolio: Security Opdracht 1
+### IT Development Portfolio: Security Opdracht 1 - The Script Kiddie
+/home is only accessible to authenticated users
+/login to login with an existing user
+/register to register a new user
 
 ## Getting Started
 
@@ -111,6 +114,7 @@ $ php ./vendor/bin/phpcs
 ## Authors
 
 * **Daan de Waard** - *Initial work* - [dwaard](https://github.com/dwaard)
+* **Ricardo Leite Lopes - [rgl-lopes](https://github.com/rgl-lopes)
 
 ## License
 
