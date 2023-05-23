@@ -3,9 +3,9 @@
 ## FPR2
 
 ### IT Development Portfolio: Security Opdracht 1 - The Script Kiddie
-/home is only accessible to authenticated users
-/login to login with an existing user
-/register to register a new user
+- /home is only accessible to authenticated users
+- /login to login with an existing user
+- /register to register a new user
 
 ## Getting Started
 
