@@ -1,11 +1,14 @@
 # Portfolio Security Repository
 
-## FPR2
+#### Course FPR2 | HZ UAS
 
 ### IT Development Portfolio: Security Opdracht 1 - The Script Kiddie
+#### Routes:
 - /home is only accessible to authenticated users
 - /login to login with an existing user
 - /register to register a new user
+
+### Down below you can find instructions on how to setup this project on your own machine. Keep in mind this project is no longer being maintained.  
 
 ## Getting Started
 
@@ -23,7 +26,6 @@ In order to work on this project, you need to install the following:
 This is a Laravel based app. Just follow the normal steps to setup your development environment.
 
 ### 1. Clone GitHub repo for this project locally
-The project is hosted on github, we can use git on your local computer to clone it from github onto your local computer.
 
 ```shell script
 $ git clone project-git-ssh-url
@@ -114,15 +116,9 @@ $ php ./vendor/bin/phpcs
 ## Authors
 
 * **Daan de Waard** - *Initial work* - [dwaard](https://github.com/dwaard)
-* **Ricardo Leite Lopes - [rgl-lopes](https://github.com/rgl-lopes)
+* **Ricardo Leite Lopes** - [rgl-lopes](https://github.com/rgl-lopes)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
